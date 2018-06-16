@@ -1,6 +1,6 @@
 {
     "name": "abcart",
-    "version": "1.0.0-alpha.3",
+    "version": "1.0.0-alpha.4",
     "description": "",
     "main": "dist/index.js",
     "scripts": {
@@ -26,6 +26,7 @@
     },
     "dependencies": {
         "rxjs": "^5.5.6",
-        "uuid": "^3.2.1"
+        "uuid": "^3.2.1",
+        "prop-types": "15.6.1"
     }
 }
