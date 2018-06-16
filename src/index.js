@@ -10,9 +10,8 @@ import {
     updatePaymentMethod
 } from "./actions";
 
-module.exports = ({ appId, apikey, token }) => {
+module.exports = ({ apikey, token }) => {
     const { store, dispatch } = connectServer({
-        appId,
         apikey,
         token
     });

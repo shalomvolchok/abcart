@@ -14,7 +14,6 @@ The following example shows direct initialization of this library.
 import abCloudCart from "abcart";
 
 const { store, actions, connect } = abCloudCart({
-    appId: APPLICATION_ID,
     apikey: ABCART_APIKEY,
     token: ABCART_JSON_WEB_TOKEN
 });
